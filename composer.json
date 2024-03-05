@@ -1,13 +1,13 @@
 {
-    "name": "priyansh/itcompany",
+    "name": "newlvl",
     "autoload": {
         "psr-4": {
-            "Priyansh\\Itcompany\\": "src/"
+            "newlvl": "src/"
         }
     },
     "authors": [
         {
-            "name": "It Company"
+            "name": "newlvl"
         }
     ],
     "require": {
