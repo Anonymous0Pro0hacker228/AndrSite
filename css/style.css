@@ -18,12 +18,16 @@ body{
     overflow-x: hidden;
 }
 
+.banana{
+    width: 50%;
+    height: 50%;
+}
 .heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
     margin: 2rem;
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #000000;
+    color: #ffffff;
     position: relative;
     letter-spacing: .2rem;
 }
@@ -38,8 +42,8 @@ body{
 }
 
 .faq .heading::before, .faq .heading::after{
-    border-top: .4rem solid #00bfff;
-    border-left: .4rem solid #00bfff;
+    border-top: .4rem solid #ffffff;
+    border-left: .4rem solid #ffffff;
 }
 
 .heading::before, .clients .section-header h2::before, .section-head h1::before, .testimonials .section-header h2::before, .section-head-1 h4::before{
@@ -239,7 +243,7 @@ body{
 }
 
 .about .row .content{
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
     text-align: left;
 }
@@ -619,11 +623,11 @@ body{
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #ffffff;
 }
 
 .team .heading::before, .team .heading::after{
-    border-color: #00bfff;
+
 }
 
 .team .row{
@@ -1104,7 +1108,7 @@ body{
     }
 
     .header .logo img{
-        width: 100%;
+        width: 200%;
         height: 3rem;
         top: 0;
         margin-left: auto;
