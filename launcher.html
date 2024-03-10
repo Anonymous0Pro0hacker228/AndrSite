@@ -33,30 +33,17 @@
         </nav>
     </header>
     <section id="home" class="home" >
-        <div class="row"><a><button type="button" id="down" class="btn">Скачать</button></a></div>
+        <div class="row"><a href="launcher.exe"><button type="button" id="down" class="btn">Скачать</button></a></div>
       <div class="wave wave1"></div>
       <div class="wave wave2"></div>
       <div class="wave wave3"></div>
     </section>
             
-    <script>
-function download(filename, text) {
-    var element = document.createElement('a');
-    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-    element.setAttribute('download', filename);
-
-    element.style.display = 'none';
-    document.body.appendChild(element);
-
-    element.click();
-
-    document.body.removeChild(element);
-}
-    </script>
        <div class="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
+                    <img class="banana" src="./images/6fe79afe47ff4a91.png">
                     <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
                       <h1 style="color: rgb(255, 255, 255);">Социальные сети</h1>
                       <h2 style="color: rgb(255, 255, 255);">Места, где вы можете найти Andrboll'a</h2>
