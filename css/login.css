@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fexternal-preview.redd.it%2FViK4abe9m2R-dmtcAvhwlCFbiI1Fw5yVJtlW3l6mSsE.jpg%3Fauto%3Dwebp%26s%3Dbe97150e3aad59a8b7455a5cab285fc27f010aed&f=1&nofb=1&ipt=43f7fcd9eb1b9d846f1438ff17523fe5f8ea2ab127904fd3f9d3974885425577&ipo=images');
+    background-size: cover;
+}
+.bg-modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 500px;
+    height: 280px;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.inputs{
+    width: 50%;
+    height: 28px;
+    display: block;
+    text-align: center;
+    margin: 18px auto;
+    border: 1px solid #999;
+    border-bottom: 3px solid #000;
+}
+.btn{
+    width: 95px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background: #ff7a8a;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    width:50%;
+    background: #ca3e47;
+}

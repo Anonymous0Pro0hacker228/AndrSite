@@ -19,9 +19,12 @@ body{
     overflow-x: hidden;
 }
 
+
+
 .banana{
     width: 25%;
     height: 25%;
+
 }
 .heading, .clients .section-header h2, .section-head h1, .testimonials .section-header h2, .section-head-1 h4{
     margin: 2rem;
